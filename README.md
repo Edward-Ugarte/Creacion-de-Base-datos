@@ -4,3 +4,4 @@ Generación de Base de Datos con Estimadores Predeterminados Aquí no se extraen
 🧠 Metodología
 - Se genera x a partir de una distribución normal estándar, ajustada para tener media μₓ y desviación σₓ exactas.
 - Se genera u (error) con media cero y desviación σₑ, también con ajuste exacto.
+Esta base puede usarse de forma directa para estimar un modelo OLS, o bien para probar cualquier otro modelo especificado por el usuario: modelos robustos, estimadores no lineales, redes neuronales econométricas, entre otros.
