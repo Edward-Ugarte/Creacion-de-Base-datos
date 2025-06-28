@@ -21,14 +21,14 @@ Se ha generado el escalar sigma_e = 10
 # Generar x con media y sd exactas
 ? series Z_ruido = normal()
 Se ha generado la serie Z_ruido (ID 2)
-? series Z_estandarizada = (Z_ruido - mean(Z_ruido)) / sd(Z_ruido)
+? series Z_estandarizada = 
 Se ha generado la serie Z_estandarizada (ID 3)
-? series x = mu_x + sigma_x * Z_estandarizada
+? series x =
 Se ha generado la serie x (ID 4)
 # Generar el error ε
 ? series e = normal()
 Se ha generado la serie e (ID 5)
-? series e_est = (e - mean(e)) / sd(e)
+? series e_est = 
 Se ha generado la serie e_est (ID 6)
 ? series u = sigma_e * e_est
 Se ha generado la serie u (ID 7)
